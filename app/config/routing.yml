@@ -1,0 +1,23 @@
+ortus_contact:
+    resource: "@OrtusContactBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ortus_infos:
+    resource: "@OrtusInfosBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ortus_actus:
+    resource: "@OrtusActusBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ortus_prestations:
+    resource: "@OrtusPrestationsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ortus_home:
+    resource: "@OrtusHomeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
